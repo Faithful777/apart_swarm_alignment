@@ -1,0 +1,20 @@
+{
+  "id": "faithfulchukwunwogor/beehive-probe-retrained",
+  "title": "Beehive Probe Retrained",
+  "code_file": "beehive_probe_retrained.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "",
+  "dataset_sources": [
+    "faithfulchukwunwogor/beehive-qwen35-runtime",
+    "faithfulchukwunwogor/beehive-qwen35-menu-adapter"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "faithfulchukwunwogor/beehive-mixed-probe-two-hour"
+  ],
+  "model_sources": []
+}

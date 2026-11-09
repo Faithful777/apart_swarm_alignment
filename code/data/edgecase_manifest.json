@@ -1,0 +1,43 @@
+{
+  "dataset": "bee_local_feasible_menu_sft",
+  "source_seeds": {
+    "failed_action_train": 42,
+    "feasible_teacher_train": 44,
+    "validation": 43
+  },
+  "source_rows": {
+    "failed_action_train": 1200,
+    "feasible_teacher_train": 1200,
+    "validation": 1200
+  },
+  "rows": {
+    "train": 1485,
+    "validation": 200
+  },
+  "source_rejected_in_training": 585,
+  "feasible_teacher_rows_in_training": 500,
+  "action_counts": {
+    "train": {
+      "forage": 35,
+      "eat": 643,
+      "clean": 126,
+      "move": 437,
+      "build_comb": 44,
+      "heat": 103,
+      "feed_brood": 71,
+      "guard": 22,
+      "lay_eggs": 4
+    },
+    "validation": {
+      "move": 31,
+      "eat": 124,
+      "clean": 18,
+      "heat": 9,
+      "build_comb": 10,
+      "guard": 8
+    }
+  },
+  "menu_size_limit": 12,
+  "target_rule": "keep applicable model task; otherwise choose a locally feasible role-aware demonstration",
+  "validation_note": "one independent world seed, with 100 rejected and 100 applied source cases"
+}

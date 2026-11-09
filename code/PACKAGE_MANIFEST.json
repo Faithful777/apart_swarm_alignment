@@ -1,0 +1,385 @@
+{
+  "description": "Source paths and SHA-256 hashes for copied research files",
+  "files": [
+    {
+      "source": "apart_swarm_submission/assemble_code_package.py",
+      "target": "assemble_code_package.py",
+      "sha256": "0d34da5c1d7aeb51051cfd4445c4943450832a7786ed552079b1d5b3bf91bf89"
+    },
+    {
+      "source": "apart_swarm_submission/plot_six_seed_trajectories.py",
+      "target": "plot_six_seed_trajectories.py",
+      "sha256": "3ecbb8b90c72fb3908c8c80aa6edc6f31255f3dd120ca00a4087d229182dcbb2"
+    },
+    {
+      "source": "kaggle_deploy/probe_retrain/kernel_full/kernel-metadata.json",
+      "target": "kaggle_reproduction/probe_retrain_kernel_metadata.json",
+      "sha256": "ce9d7ae890d52dded9851d5cb3ee6a59447a155dd1b82ca422ae516de0c07a8a"
+    },
+    {
+      "source": "kaggle_deploy/retrained_holdout/kernel_full/kernel-metadata.json",
+      "target": "kaggle_reproduction/holdout_kernel_metadata.json",
+      "sha256": "239f4909ed30a3ca3ef2e91f486017f3f4873ba55479cb38c0f50d63fbd45e03"
+    },
+    {
+      "source": "beehive_sim.py",
+      "target": "beehive_sim.py",
+      "sha256": "00974004e2a8d66373c448c45015173965a3194cf5b5b376c8dc67a74c109314"
+    },
+    {
+      "source": "bee_feasibility.py",
+      "target": "bee_feasibility.py",
+      "sha256": "bba8e45673245717797a2e0e2df80ebd54aeda5dde4d6d8de37d27bd7f69b657"
+    },
+    {
+      "source": "bee_menu_qwen_policy.py",
+      "target": "bee_menu_qwen_policy.py",
+      "sha256": "122484d7e044c4e7dcd375fb6efd8793602ffcd1f0e829564933fe1f7c8c535c"
+    },
+    {
+      "source": "bee_local_qwen_policy.py",
+      "target": "bee_local_qwen_policy.py",
+      "sha256": "4786db6491777bc37bdba01a8b2958e1abf3a39bfbc90d0cf46ffd8f27387bda"
+    },
+    {
+      "source": "generate_bee_sft_dataset.py",
+      "target": "generate_bee_sft_dataset.py",
+      "sha256": "da56a1dc04f41a21f73a58f259f89268352d3101030c0331ff7f1c13f272f7d7"
+    },
+    {
+      "source": "generate_bee_edgecase_sft.py",
+      "target": "generate_bee_edgecase_sft.py",
+      "sha256": "4e4597d39106cc5a04e425cb40f52a5ce746a442c0c0e7989dec96297532485b"
+    },
+    {
+      "source": "beehive_agents.ipynb",
+      "target": "beehive_agents.ipynb",
+      "sha256": "f86c76fc19eb055294630f1f8a7980d0793b14a753140fd0bd8627d188dda0d0"
+    },
+    {
+      "source": "beehive_agents_qwen35.ipynb",
+      "target": "beehive_agents_qwen35.ipynb",
+      "sha256": "141bc65a51c620fe1eb58a48f921c4ca223ec210c29f45b2213129b0868a8440"
+    },
+    {
+      "source": "train_qwen35_bee_agents.ipynb",
+      "target": "train_qwen35_bee_agents.ipynb",
+      "sha256": "fa008abf109923c2a1e965a71d44f0282780437ff5862918bf4da3637b1bfd71"
+    },
+    {
+      "source": "bee_menu_finetune.ipynb",
+      "target": "bee_menu_finetune.ipynb",
+      "sha256": "4412411b14fd958d0055d40d28a57e378e72829dcb0b97c83864cc3b955bdf57"
+    },
+    {
+      "source": "beehive_vector_probe_steering.ipynb",
+      "target": "beehive_vector_probe_steering.ipynb",
+      "sha256": "f01748ecaec947f3659a93f4331e3571dd633a8b56362bc30ef4f424d88b799d"
+    },
+    {
+      "source": "beehive_column_steering.ipynb",
+      "target": "beehive_column_steering.ipynb",
+      "sha256": "2d2e63e778298032779022846cfc9000e7e4920141e5ca908f0589fbd3cee654"
+    },
+    {
+      "source": "beehive_column_steering_4h.ipynb",
+      "target": "beehive_column_steering_4h.ipynb",
+      "sha256": "ca6cdb3f745450d1a49f72435bd5cbf0cd7cdb55c6bfd3b0d3fc55fa94b6943a"
+    },
+    {
+      "source": "beehive_mixed_probe_2h.ipynb",
+      "target": "beehive_mixed_probe_2h.ipynb",
+      "sha256": "b333f7bc6fee2fb936f4ed41c22c3cdf7f86e3e276d9e825f12f31be262e23a9"
+    },
+    {
+      "source": "beehive_direction_audit.ipynb",
+      "target": "beehive_direction_audit.ipynb",
+      "sha256": "80736d87080b4e4d484bf365983192d86dd6eff1a4cca5755a0a23e0cd3b9564"
+    },
+    {
+      "source": "beehive_probe_retrained.ipynb",
+      "target": "beehive_probe_retrained.ipynb",
+      "sha256": "56b36e52fe91044d5c53dede5ff859da3fd64163e0729bbf5dcffed1854368aa"
+    },
+    {
+      "source": "beehive_retrained_probe_holdout.ipynb",
+      "target": "beehive_retrained_probe_holdout.ipynb",
+      "sha256": "9c2fa1130aed27ce0ccd5d93bf0ce6f5eb999a535d041c2ad278312716ac6231"
+    },
+    {
+      "source": "build_bee_menu_finetune_notebook.py",
+      "target": "build_bee_menu_finetune_notebook.py",
+      "sha256": "77a851e68653ea6d6cd02fef2b321990d4517065174023165bf1b85d8a7b0d47"
+    },
+    {
+      "source": "build_vector_probe_notebook.py",
+      "target": "build_vector_probe_notebook.py",
+      "sha256": "a48170e4b8ba160c04f3193358464fc288fec8823904c776ca3cbd4d59c63a83"
+    },
+    {
+      "source": "build_bee_column_steering_notebook.py",
+      "target": "build_bee_column_steering_notebook.py",
+      "sha256": "804f6ef2b6345320b45588cd732f8fac2cdf74a352cfea050179c37a9a2d685d"
+    },
+    {
+      "source": "build_bee_column_steering_4h_notebook.py",
+      "target": "build_bee_column_steering_4h_notebook.py",
+      "sha256": "145eee327ab92f2c718ca3a6f4dfb417f28ab3bd5bd87804ede76bb0100990e4"
+    },
+    {
+      "source": "build_bee_mixed_probe_2h_notebook.py",
+      "target": "build_bee_mixed_probe_2h_notebook.py",
+      "sha256": "4f00ed87dc68367d7cf7ee4c2ffe75f806e30fb1b8480810d066316a32e161bb"
+    },
+    {
+      "source": "build_bee_direction_audit_notebook.py",
+      "target": "build_bee_direction_audit_notebook.py",
+      "sha256": "a73b2b33bb6bdbabad3ba41a886cfeb5c1be1e89c696784391448143f0c6b491"
+    },
+    {
+      "source": "build_bee_probe_retrain_notebook.py",
+      "target": "build_bee_probe_retrain_notebook.py",
+      "sha256": "115f163988c859a02640c9ba5fa5e45441f9ebdd891520e95a1c75d2596c19d3"
+    },
+    {
+      "source": "build_bee_retrained_holdout_notebook.py",
+      "target": "build_bee_retrained_holdout_notebook.py",
+      "sha256": "586630af35adfee5e89f2f4cc28a7f3aa92dc3392550df5d7c516d21900dd179"
+    },
+    {
+      "source": "MODEL_DESIGN.md",
+      "target": "MODEL_DESIGN.md",
+      "sha256": "51e27c96476c23638b14d06fac0fc1e407ddd3b4f12ebee050af7070bc4e5c16"
+    },
+    {
+      "source": "TRAINING_DATA.md",
+      "target": "TRAINING_DATA.md",
+      "sha256": "2fa98658563e8f9f4e7050ee6747ed23c7c81cad4c8b0b884303968ed0b0307e"
+    },
+    {
+      "source": "BEE_PROBE_RETRAINED.md",
+      "target": "BEE_PROBE_RETRAINED.md",
+      "sha256": "237a827647830abaf2f5a512e7642873a61aa2f20783a2ef964818654e7658c0"
+    },
+    {
+      "source": "BEE_RETRAINED_HOLDOUT_100_103.md",
+      "target": "BEE_RETRAINED_HOLDOUT_100_103.md",
+      "sha256": "63937c97310d8429523b18766384077de83495fbbf47484073e2760cfc73ebe9"
+    },
+    {
+      "source": "requirements.txt",
+      "target": "requirements.txt",
+      "sha256": "ef8c06edb5514d65d422b7fd9397d008ba9d3681ca6cfffaddf189a9c7cd50eb"
+    },
+    {
+      "source": "tests/test_beehive_sim.py",
+      "target": "tests/test_beehive_sim.py",
+      "sha256": "90428fbf34e6ff94f07fa0df7c633a48a60a2dc1cc4ebb962f1679c9dd45f048"
+    },
+    {
+      "source": "bee_decision_sft_dataset.zip",
+      "target": "data/bee_decision_sft_dataset.zip",
+      "sha256": "1562dfc07a2187af1552c0934202d2ab796c1a5642876465a6add19e15e8509c"
+    },
+    {
+      "source": "data/bee_decision_sft/manifest.json",
+      "target": "data/bee_decision_sft_manifest.json",
+      "sha256": "9626266df87ef5a4897208b15c7b0b2fc001da1289a4db9e0fbc4f846f62b742"
+    },
+    {
+      "source": "data/bee_decision_sft/DATASET_CARD.md",
+      "target": "data/DATASET_CARD.md",
+      "sha256": "2f547c92b4b9c343df122a937216c88147b13cf36d706de477134b1ce6f5c545"
+    },
+    {
+      "source": "data/bee_edgecase_sft/edgecase_train.jsonl",
+      "target": "data/edgecase_train.jsonl",
+      "sha256": "e26da957c0226e85305411542503b8375f03d1f5dede54a42338f3d8008689e0"
+    },
+    {
+      "source": "data/bee_edgecase_sft/edgecase_validation.jsonl",
+      "target": "data/edgecase_validation.jsonl",
+      "sha256": "b9a0e8c34b4089a477e2c1112e315c949a51e042e74be38353d03efa148669aa"
+    },
+    {
+      "source": "data/bee_edgecase_sft/manifest.json",
+      "target": "data/edgecase_manifest.json",
+      "sha256": "d87582160b6287f3a606bba1b21c0a793be311d03ef44005f1c67bc16d66bbc1"
+    },
+    {
+      "source": "kaggle_deploy/beehive_qwen35/dataset/beehive_qwen35_runtime_bundle.zip",
+      "target": "artifacts/runtime/beehive_qwen35_runtime_bundle.zip",
+      "sha256": "a386b87b38793796d314fd8d185fb0a14d086343675eb76d3cd9ed91f68604b7"
+    },
+    {
+      "source": "kaggle_deploy/beehive_qwen35/dataset/probe_source_metadata.json",
+      "target": "artifacts/runtime/probe_source_metadata.json",
+      "sha256": "206914a619fed5f75fcbb62c15c243a53e4a2bf3813256abb01ffee0a599c6eb"
+    },
+    {
+      "source": "kaggle_deploy/menu_adapter/dataset/adapter_model.safetensors",
+      "target": "artifacts/menu_adapter/adapter_model.safetensors",
+      "sha256": "3a61ec05beba1f912deb7b906d223bda7a413e4a4f40a7a46f9a17b903019c56"
+    },
+    {
+      "source": "kaggle_deploy/menu_adapter/dataset/adapter_config.json",
+      "target": "artifacts/menu_adapter/adapter_config.json",
+      "sha256": "a414fdd67acc27c209ae6b4f83866b45ade9edd0b1d20245f5603c421746ab5d"
+    },
+    {
+      "source": "kaggle_deploy/menu_adapter/dataset/tokenizer.json",
+      "target": "artifacts/menu_adapter/tokenizer.json",
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523"
+    },
+    {
+      "source": "kaggle_deploy/menu_adapter/dataset/tokenizer_config.json",
+      "target": "artifacts/menu_adapter/tokenizer_config.json",
+      "sha256": "956c3301e250394a997c6c10d86ce7252b4fc2f4ef27d9481fba941c715de144"
+    },
+    {
+      "source": "kaggle_deploy/menu_adapter/dataset/processor_config.json",
+      "target": "artifacts/menu_adapter/processor_config.json",
+      "sha256": "3814737f2d4bfdd153a82364b3850f1be5dbc6f074a55c8d5fbf4d40127c3e87"
+    },
+    {
+      "source": "kaggle_deploy/menu_adapter/dataset/chat_template.jinja",
+      "target": "artifacts/menu_adapter/chat_template.jinja",
+      "sha256": "ea210e5b4997b7b1d3af5ee3ad34e7677ffe38df7469e8d88089789b5a27fae5"
+    },
+    {
+      "source": "kaggle_deploy/menu_adapter/dataset/training_report.json",
+      "target": "artifacts/menu_adapter/training_report.json",
+      "sha256": "57b267396fec2ce3a4e44fe06baac44fe6c72d510d7e4e60a492c8643396f3d0"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/full_output/bee_mixed_probe_20261107T221054Z/new_probe_layer_13.npz",
+      "target": "artifacts/mixed_probe/new_probe_layer_13.npz",
+      "sha256": "b2a0d6b16525194691369c6a085de7b2e5aff7dfc975bc1d57356d24a4ad9576"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/full_output/bee_mixed_probe_20261107T221054Z/new_probe_layer_14.npz",
+      "target": "artifacts/mixed_probe/new_probe_layer_14.npz",
+      "sha256": "3e6178db39733ac0edb21a515802a45c1fc39a30abb89e2e9f933eb18098add5"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/full_output/bee_mixed_probe_20261107T221054Z/experiment_report.json",
+      "target": "artifacts/mixed_probe/experiment_report.json",
+      "sha256": "c49f771b2c92ba789fd7b40e547e3ddd235992104b3623ea7b4713be4fc47100"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_90_baseline/actions.jsonl",
+      "target": "artifacts/mixed_probe/source_90_baseline/actions.jsonl",
+      "sha256": "3b69fa1e3c1847368b8a3481eaf42d94fd9706eaac078b90514e7c1c58f9317d"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_90_baseline/vectors.jsonl",
+      "target": "artifacts/mixed_probe/source_90_baseline/vectors.jsonl",
+      "sha256": "de4f4b8a3f101d2234ff503067ef773322e9b2d834d0f2561f1ff24503e1fff5"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_90_baseline/metadata.json",
+      "target": "artifacts/mixed_probe/source_90_baseline/metadata.json",
+      "sha256": "076ba92600f3650b13cc7b7ebccc2f91a9a30a6ae00ef2a6ff7cc9a52eb392ef"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_90_bootstrap_equal/actions.jsonl",
+      "target": "artifacts/mixed_probe/source_90_bootstrap_equal/actions.jsonl",
+      "sha256": "ec5517543fab731b4f92bb94ff08b276b3365b7efe8d1127bbcd2f5693c273b0"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_90_bootstrap_equal/vectors.jsonl",
+      "target": "artifacts/mixed_probe/source_90_bootstrap_equal/vectors.jsonl",
+      "sha256": "561ea8f13cf77ca9de4b35565bcad104feb4aabab4ac036220ee2750406f3342"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_90_bootstrap_equal/metadata.json",
+      "target": "artifacts/mixed_probe/source_90_bootstrap_equal/metadata.json",
+      "sha256": "57b8e27f8411755a76588ad9beabcbf71a628525b33e1d491fdfe89d966cfad1"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_91_baseline/actions.jsonl",
+      "target": "artifacts/mixed_probe/source_91_baseline/actions.jsonl",
+      "sha256": "d71cc82e96be928f44611b2289b639b026b301fb7d3500785c1b3a5f7ab1a30e"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_91_baseline/vectors.jsonl",
+      "target": "artifacts/mixed_probe/source_91_baseline/vectors.jsonl",
+      "sha256": "0591bfc13d8b1c1952aa3b1b5bc7069045ab9ce640efb462e0d4208794aff9f4"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_91_baseline/metadata.json",
+      "target": "artifacts/mixed_probe/source_91_baseline/metadata.json",
+      "sha256": "21790247c76fc25a7becf667a732989ecad3deeb250e986c2cc69f57e1f80687"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_91_bootstrap_equal/actions.jsonl",
+      "target": "artifacts/mixed_probe/source_91_bootstrap_equal/actions.jsonl",
+      "sha256": "66d6add0e1f00dd7b7d8ef3ecd8e8a1e8a0a9ecf362524b69f66a7958b4f9494"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_91_bootstrap_equal/vectors.jsonl",
+      "target": "artifacts/mixed_probe/source_91_bootstrap_equal/vectors.jsonl",
+      "sha256": "f23d151016b1f5bd25a4416c14cbbccd4b4997cb1a6926f6349adc0e18e66161"
+    },
+    {
+      "source": "kaggle_deploy/mixed_probe_2h/replay_source/bee_mixed_probe_20261107T221054Z/source_91_bootstrap_equal/metadata.json",
+      "target": "artifacts/mixed_probe/source_91_bootstrap_equal/metadata.json",
+      "sha256": "0c157eaf3e1a56f860ec5337e544ebdaa88f7afe384983b8d00cb9f5d7bf1652"
+    },
+    {
+      "source": "kaggle_deploy/probe_retrain/full_output/bee_probe_retrained_20261108T081009Z/retrained_probe_layer_13.npz",
+      "target": "artifacts/retrained_probe/retrained_probe_layer_13.npz",
+      "sha256": "5e370144a2c4d8b1ef05e95ecd146500f02e8c8df76bb43d0cc21aee52dd9616"
+    },
+    {
+      "source": "kaggle_deploy/probe_retrain/full_output/bee_probe_retrained_20261108T081009Z/retrained_probe_layer_14.npz",
+      "target": "artifacts/retrained_probe/retrained_probe_layer_14.npz",
+      "sha256": "ff549877bb58c0108d5b7c6aad90c503d03ef78d850bae5a59624a291b88f10b"
+    },
+    {
+      "source": "kaggle_deploy/probe_retrain/full_output/bee_probe_retrained_20261108T081009Z/retrained_probe_report.json",
+      "target": "artifacts/retrained_probe/retrained_probe_report.json",
+      "sha256": "ffddd5615a160283be918c6e4bd7c35be8f3a9f1f52eb8acef0d3461aaf5e4a5"
+    },
+    {
+      "source": "kaggle_deploy/probe_retrain/full_output/bee_probe_retrained_20261108T081009Z/retrained_probe_validation.csv",
+      "target": "results/retrained_probe_validation.csv",
+      "sha256": "36c1fadaf3e67a9bd858798ce299c27cc03cfabde562e6c90f576e961392a5d4"
+    },
+    {
+      "source": "kaggle_deploy/probe_retrain/full_output/bee_probe_retrained_20261108T081009Z/final_step_changes.csv.gz",
+      "target": "results/final_step_changes_114_115.csv.gz",
+      "sha256": "88c7076f65693fb62c1a2ce157d2341d1a580789021bca641f1d13e92a71f49f"
+    },
+    {
+      "source": "kaggle_deploy/probe_retrain/full_output/bee_probe_retrained_20261108T081009Z/final_hive_summary.csv",
+      "target": "results/final_hive_summary_114_115.csv",
+      "sha256": "f6b3a19618885797c6fff732b582808683e968186403d26d310f9e8644004fed"
+    },
+    {
+      "source": "kaggle_deploy/probe_retrain/full_output/bee_probe_retrained_20261108T081009Z/final_hive_vectors.csv",
+      "target": "results/final_hive_vectors_114_115.csv",
+      "sha256": "f99d1c8a1038c5dd4f22ce23f6866751815756ef2e359af64b1df1ff80369279"
+    },
+    {
+      "source": "kaggle_deploy/retrained_holdout/full_output/bee_retrained_holdout_20261108T160028Z/holdout_report.json",
+      "target": "results/holdout_report_100_103.json",
+      "sha256": "18824d2b7f7846f4bc124681b55e2f61d395704babb21052b3b98924495d4b7e"
+    },
+    {
+      "source": "kaggle_deploy/retrained_holdout/full_output/bee_retrained_holdout_20261108T160028Z/holdout_step_changes.csv.gz",
+      "target": "results/holdout_step_changes_100_103.csv.gz",
+      "sha256": "886429dbf8eac6d2b73fd7d7da63af4ee9cf832b952a4c0879154de2256a766b"
+    },
+    {
+      "source": "kaggle_deploy/retrained_holdout/full_output/bee_retrained_holdout_20261108T160028Z/holdout_run_summary.csv",
+      "target": "results/holdout_run_summary_100_103.csv",
+      "sha256": "29b76199a375b34fe9c23f6614b9b4fda6a008399cad6215c1059b5c51c0c64a"
+    },
+    {
+      "source": "kaggle_deploy/retrained_holdout/full_output/bee_retrained_holdout_20261108T160028Z/holdout_final_vectors.csv",
+      "target": "results/holdout_final_vectors_100_103.csv",
+      "sha256": "987aeca2d2539aa97494d606fa96ebef19046c99bc7da65a15a7128be44fc23f"
+    }
+  ]
+}
