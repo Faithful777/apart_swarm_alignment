@@ -1,9 +1,7 @@
 # Probe-guided bee-swarm experiment: code and artifacts
 
 This directory accompanies *Probe-Guided Steering of an LLM Worker-Bee Swarm
-in a Simulated Hive*, an Apart Swarm Alignment Hackathon 2026 report by
-Faithful Chukwunwogor (Independent). The report's GitHub URL is a placeholder:
-**https://github.com/USERNAME/REPO**. Replace it after uploading this folder.
+in a Simulated Hive*
 
 The code is a synthetic AI-agent testbed, not a biologically validated
 honey-bee model. The report's six-seed tables come from saved Kaggle runs.
@@ -40,13 +38,6 @@ final notebooks are the completed full-run versions with SMOKE=False.
   report. results contains held-out probe errors and both final action-level
   timestamped vector transcripts, summaries, and per-seed final vectors.
 - PACKAGE_MANIFEST.json lists each copied file's original path and SHA-256.
-
-Kaggle notebook pages (some datasets and outputs may be private):
-
-- Continuation training: https://www.kaggle.com/code/faithfulchukwunwogor/beehive-qwen35-feasible-menu-finetune
-- Source trajectories: https://www.kaggle.com/code/faithfulchukwunwogor/beehive-mixed-probe-two-hour
-- Retrained probe and seeds 114–115: https://www.kaggle.com/code/faithfulchukwunwogor/beehive-probe-retrained
-- Frozen repeat on seeds 100–103: https://www.kaggle.com/code/faithfulchukwunwogor/beehive-retrained-probe-holdout
 
 ## Reproduction sequence
 
@@ -141,19 +132,3 @@ To regenerate the figure from included results, run the plot script with:
 --output ../figures/six_seed_mean_trajectories.png.
 The LaTeX source is ../report.tex; compile it from the parent directory with
 tectonic report.tex --outdir . or another TeX engine. The PDF is ../report.pdf.
-
-## Provenance relative to the sprint
-
-The simulator, synthetic SFT generator, and first Qwen LoRA predate the
-November 6–8, 2026 sprint (saved artifacts date to November 2–3). The local
-menu and continuation-training assets were prepared by November 5. The
-retrained probe, causal direction screen, and paired six-seed evaluation are
-the main sprint work and immediate follow-up. Earlier probe and mixed-world
-notebooks are included because the main experiment uses their saved data.
-The beehive design cites TaskSelSim, ApisRAM, SIMBACA, and Bee++; no source
-code from those projects was copied.
-
-The action teacher and metric are synthetic. Physically executable labels
-do not prove biological correctness or optimal choices. Seeds 100–103 had
-been used in earlier experiments with other directions, so the six-seed
-result remains exploratory rather than fully untouched confirmation.
